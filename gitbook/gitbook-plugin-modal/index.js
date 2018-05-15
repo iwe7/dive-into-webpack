@@ -21,7 +21,6 @@ require(['gitbook'], function (gitbook) {
       }
       shouldClose = true;
     }
-
     function showModal(content, closeable) {
       if ($bookBody.getElementsByClassName('gitbook-plugin-modal').length > 0) {
         $bookBody.getElementsByClassName('gitbook-plugin-modal')[0].style.display = 'block';
